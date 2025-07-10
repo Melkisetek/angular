@@ -1,6 +1,7 @@
 # Descargar archivos nodejs
 
-**Descargar la carpeta node_modules**
+**Descargar dependencias**
 - Con el comando: npm install
+* Descarga los archivos de configuración y los modulos (node_modules)
 
   
