@@ -1,0 +1,33 @@
+# Ignorar node_modules en todos los subproyectos
+**/node_modules/
+
+# Ignorar carpetas de compilación Angular
+**/dist/
+**/out-tsc/
+**/.angular/cache/
+**/tmp/
+
+# Archivos de entorno
+**/.env
+**/.env.*.local
+
+# Cobertura de pruebas
+**/coverage/
+
+# Logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Archivos de sistema y editores
+**/.DS_Store
+**/Thumbs.db
+**/.vscode/
+**/.idea/
+**/*.sublime*
+**/*.swp
+**/*.bak
+
+#Carpeta documentos
+docs/
+

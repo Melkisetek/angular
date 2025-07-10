@@ -1,0 +1,16 @@
+<div class="container mt-5">
+    <div class="d-flex justify-content-center">
+        <div class="w-25">
+            <div class="mb-3 d-flex align-items-center">
+                <label class="form-label me-2 text-nowrap" for="valorA" title="valor">Operando A:</label>
+                <input class="form-control text-center" type="number" name="" id="valorA" [(ngModel)]="valorA">
+            </div>
+            <div class="mb-3 d-flex align-items-center">
+                <label class="form-label me-2 text-nowrap"  for="valorB">Operando B:</label>
+                <input class="form-control text-center" type="number" name="" id="valorB" [(ngModel)]="valorB">
+            </div>
+            <button type="submit" class="btn btn-primary mb-3 w-100" (click)="sumar()">Sumar</button>
+            <p class="text-center">Resultado: {{resultado}}</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+<div class="titulo text-center text-primary">
+    <h1>Concepto Two-way Binding</h1>
+</div>
+
+<div class="d-flex justify-content-center">
+    <div class="w-50">
+        <div class="mb-3 d-flex justify-content-center">
+            <label for="inputTexto" class="mx-2">Mensaje:</label>
+            <input type="text" id="inputTexto" [(ngModel)]="saludo" autocomplete="off">
+        </div>
+        <div class="mb-3">
+            <div class="alert alert-success mt-5 mx-auto w-50">
+                {{saludo}}
+            </div>
+        </div>
+    </div>
+
+</div>

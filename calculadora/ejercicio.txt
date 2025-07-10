@@ -1,0 +1,11 @@
+*** Proyecto Alculadora en Angular ***
+
+*Utilizar Bootstrap
+*Poner en practica conceptos aprendidos en los cursos.
+*Concepto de Two-way Binding
+
+Realizar calculadora simple de sumar:
+    1. Ingresar el Operando A y ingresar el operando B
+    2. Dar clic el boton sumar luego mostrar la respuesta de la suma.   
+    3. Utilzar el concepto de interpolación mostrar el concepto de resultado.
+
