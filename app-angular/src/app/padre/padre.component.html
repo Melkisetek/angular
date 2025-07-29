@@ -1,6 +1,6 @@
-<p>Componente padre</p>
-<!-- Include the child component -->
-<app-hijo/>
-<app-hijo/>
-<app-hijo/>
-
+<div class="container text-center">
+    <h1 class="text-warning">{{titulo}}</h1>
+    <h3 class="text-primary">Componente padre</h3>
+    <app-hijo></app-hijo>
+    <button class="btn btn-primary" (click)="cambiarMensajeHijo()">Cambiar mensaje del hijo</button>
+</div>
